@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+body {
+	background-color: #ececec;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 90vh;
+	flex-direction: column;
+}
+*{
+	font-family: 'Outfit', sans-serif;
+	box-sizing: border-box;
+}
+
+
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+input {
+	display: black;
+	border: 2px solid #ccc;
+	width: 95%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 10px
+}
+
+label {
+	color:#888;
+	font-size: 18px;
+	padding: 10px;
+}
+
+button {
+	float: right;
+	background: #EEE2DC;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+}
+
+button:hover{
+	background: #660000;
+}
+
+.error {
+	background: #F2DEDE;
+	color: #A94442;
+	padding: 10px 15px;
+	border-radius: 5px;
+	width: 95%;
+	margin:20px auto;
+}
+
+.success {
+	background: #d3f7be;
+	color: black;
+	padding: 10px 15px;
+	border-radius: 5px;
+	width: 95%;
+	margin:20px auto;
+}
+
+h1 {
+	text-align: center;
+	color: #fff;
+	text-shadow: 2px 2px 5px #801a00;
+}
+
+.a-buttons {
+	float: right;
+	background: #e98074;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+	text-decoration: none;
+}
+
+.a-buttons:hover{
+	opacity: .7;
+}
+.ca {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: #444;
+
+}
+.ca:hover {
+	text-decoration: underline;
+}
+
+.menu-blocks{
+	height: 70px; 
+	width: 150px;
+	background:#EEE2DC;
+	margin-right: 30px;
+	border-radius: 12px;
+	border-color: #e98074;
+	font-family: 'Outfit', sans-serif;
+	font-weight: 600;
+	color: #123C69;
+}
+
+.auth-button{
+	font-family: 'Outfit', sans-serif;
+	color: #123C69;
+	border-color: #e98074;
+}
+
+.basic-button{
+	height: 40px; 
+	width: 130px;
+	background:#bfa69f;
+	border-radius: 12px;
+
+}
+
+.menu-blocks:hover{
+	opacity: .7;
+	cursor: pointer;
+}
+
+.middle-text{
+	margin-top: 30px;
+	text-align: center;
+vertical-align: middle;
+}
+
+
